@@ -28,7 +28,7 @@ def test_fun4():
     
     assert calculator.fun4 (-1, -1, 100) == 98
     assert calculator.fun4 (0,0,10) == 10
-    assert calculator.fun4 (0,0,10) == 11
+   # assert calculator.fun4 (0,0,10) == 11
 
     
 # # Parametrized Tests
