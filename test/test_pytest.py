@@ -27,6 +27,7 @@ def test_fun4():
     assert calculator.fun4 (-1, -1, -1) == -3
     
     assert calculator.fun4 (-1, -1, 100) == 98
+    assert calculator.fun4 (0,0,10) == 10
     
 # # Parametrized Tests
 # @pytest.mark.parametrize("a, b, expected", [(2, 3, 5), (5, 0, 5), (-1, 1, 0), (-1, -1, -2)])
